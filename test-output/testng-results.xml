@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Login Successful!]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8129" started-at="2023-07-22T15:03:48 IST" finished-at="2023-07-22T15:03:56 IST">
+    <groups>
+    </groups>
+    <test name="BTCTest" duration-ms="8129" started-at="2023-07-22T15:03:48 IST" finished-at="2023-07-22T15:03:56 IST">
+      <class name="com.bpract.btc.testscripts.BTCLoginTest">
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.bpract.btc.testscripts.BTCLoginTest@612fc6eb]" name="initialization" is-config="true" duration-ms="5081" started-at="2023-07-22T15:03:48 IST" finished-at="2023-07-22T15:03:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyLoginWithValidData()[pri:0, instance:com.bpract.btc.testscripts.BTCLoginTest@612fc6eb]" name="verifyLoginWithValidData" duration-ms="3022" started-at="2023-07-22T15:03:53 IST" finished-at="2023-07-22T15:03:56 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidData -->
+      </class> <!-- com.bpract.btc.testscripts.BTCLoginTest -->
+    </test> <!-- BTCTest -->
+  </suite> <!-- Suite -->
+</testng-results>
