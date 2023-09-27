@@ -1,16 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Login Successful!]]>
     </line>
+    <line>
+      <![CDATA[You are in Sub Admin Page!]]>
+    </line>
+    <line>
+      <![CDATA[You are in Create Sub Admin Page!]]>
+    </line>
+    <line>
+      <![CDATA[Back to Sub Admin Page!]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful!]]>
+    </line>
+    <line>
+      <![CDATA[You are in Sub Admin Page!]]>
+    </line>
+    <line>
+      <![CDATA[You are in Create Sub Admin Page!]]>
+    </line>
+    <line>
+      <![CDATA[Back to Sub Admin Page!]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="8129" started-at="2023-07-22T15:03:48 IST" finished-at="2023-07-22T15:03:56 IST">
+  <suite started-at="2023-09-26T09:48:49 IST" name="Suite" finished-at="2023-09-26T09:49:41 IST" duration-ms="52778">
     <groups>
     </groups>
-    <test name="BTCTest" duration-ms="8129" started-at="2023-07-22T15:03:48 IST" finished-at="2023-07-22T15:03:56 IST">
-      <class name="com.bpract.btc.testscripts.BTCLoginTest">
-        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.bpract.btc.testscripts.BTCLoginTest@612fc6eb]" name="initialization" is-config="true" duration-ms="5081" started-at="2023-07-22T15:03:48 IST" finished-at="2023-07-22T15:03:53 IST">
+    <test started-at="2023-09-26T09:48:49 IST" name="BTCTest" finished-at="2023-09-26T09:49:41 IST" duration-ms="52778">
+      <class name="com.bpract.btc.testscripts.BTCSubAdminTest">
+        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.bpract.btc.testscripts.BTCSubAdminTest@3f191845]" started-at="2023-09-26T09:48:49 IST" name="initialization" finished-at="2023-09-26T09:49:04 IST" duration-ms="14338" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,14 +42,152 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="verifyLoginWithValidData()[pri:0, instance:com.bpract.btc.testscripts.BTCLoginTest@612fc6eb]" name="verifyLoginWithValidData" duration-ms="3022" started-at="2023-07-22T15:03:53 IST" finished-at="2023-07-22T15:03:56 IST">
+        <test-method signature="verifyValidSubAdminRegister(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.bpract.btc.testscripts.BTCSubAdminTest@3f191845]" started-at="2023-09-26T09:49:04 IST" name="verifyValidSubAdminRegister" data-provider="ValidSubAdminRegister" finished-at="2023-09-26T09:49:22 IST" duration-ms="18114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[atlas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9074896606]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Basic Introduction To Cryptocurrencies]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testing Testing Testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Marketing]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[atlas@bpract.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[atlas]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
               <![CDATA[Login Successful!]]>
             </line>
+            <line>
+              <![CDATA[You are in Sub Admin Page!]]>
+            </line>
+            <line>
+              <![CDATA[You are in Create Sub Admin Page!]]>
+            </line>
+            <line>
+              <![CDATA[Back to Sub Admin Page!]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- verifyLoginWithValidData -->
-      </class> <!-- com.bpract.btc.testscripts.BTCLoginTest -->
+        </test-method> <!-- verifyValidSubAdminRegister -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.bpract.btc.testscripts.BTCSubAdminTest@3f191845]" started-at="2023-09-26T09:49:22 IST" name="closeBrowser" finished-at="2023-09-26T09:49:22 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.bpract.btc.testscripts.BTCSubAdminTest@3f191845]" started-at="2023-09-26T09:49:22 IST" name="initialization" finished-at="2023-09-26T09:49:27 IST" duration-ms="4852" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="verifyValidSubAdminRegister(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.bpract.btc.testscripts.BTCSubAdminTest@3f191845]" started-at="2023-09-26T09:49:27 IST" name="verifyValidSubAdminRegister" data-provider="ValidSubAdminRegister" finished-at="2023-09-26T09:49:41 IST" duration-ms="14297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jasper]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9074896606]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Basic Introduction To Cryptocurrencies]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testing Testing Testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Marketing]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[jasper@bpract.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[jasper]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successful!]]>
+            </line>
+            <line>
+              <![CDATA[You are in Sub Admin Page!]]>
+            </line>
+            <line>
+              <![CDATA[You are in Create Sub Admin Page!]]>
+            </line>
+            <line>
+              <![CDATA[Back to Sub Admin Page!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyValidSubAdminRegister -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.bpract.btc.testscripts.BTCSubAdminTest@3f191845]" started-at="2023-09-26T09:49:41 IST" name="closeBrowser" finished-at="2023-09-26T09:49:41 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.bpract.btc.testscripts.BTCSubAdminTest -->
     </test> <!-- BTCTest -->
   </suite> <!-- Suite -->
 </testng-results>

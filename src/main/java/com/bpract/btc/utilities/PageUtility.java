@@ -6,8 +6,10 @@ import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
 public class PageUtility {
@@ -36,10 +38,12 @@ public class PageUtility {
 		}
 	}
 	
-	
-	
-	public void switchToWindow(WebDriver driver) {
-		
+	public void selectFromAutoSuggestion(WebElement element, WebDriver driver, String username) throws InterruptedException{
+		Actions action = new Actions(driver);
+		action.moveToElement(element).click().sendKeys(username).build().perform();
+		Thread.sleep(2000);
+		action.sendKeys(Keys.ARROW_DOWN).perform();
+		action.sendKeys(Keys.ENTER).perform();
 	}
 	
 }

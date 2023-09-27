@@ -36,8 +36,8 @@ public class BTCTestHelper {
 	return driver;
 	}
 
-//	@AfterMethod
-//	public void closeBrowser() {
-//	driver.close();
-//	}
+	@AfterMethod
+	public void closeBrowser() {
+	driver.close();
+	}
 }

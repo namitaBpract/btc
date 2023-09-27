@@ -4,7 +4,7 @@
   <test thread-count="5" name="BTCTest">
   <parameter name="browser" value="chrome"></parameter>
     <classes>
-      <class name="com.bpract.btc.testscripts.BTCLoginTest"/>
+      <class name="com.bpract.btc.testscripts.BTCSubAdminTest"/>
     </classes>
   </test> <!-- BTCTest -->
 </suite> <!-- Suite -->
